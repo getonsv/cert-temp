@@ -1,3 +1,22 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff; /* or keep your existing bg image */
+}
+
+.certificate-wrapper {
+  /* use the exact width/height of your PDF canvas */
+  width: 1123px;   /* e.g. PDF width in px */
+  height: 794px;   /* e.g. PDF height in px */
+  position: relative;
+  /* leave all child divs positioned absolutely relative to this */
+}
+
+
 .ff0{font-family:sans-serif;visibility:hidden;}
 @font-face{font-family:ff1;src:url(f1.woff)format("woff");}.ff1{font-family:ff1;line-height:0.861816;font-style:normal;font-weight:normal;visibility:visible;}
 @font-face{font-family:ff2;src:url(f2.woff)format("woff");}.ff2{font-family:ff2;line-height:0.938965;font-style:normal;font-weight:normal;visibility:visible;}
@@ -34,8 +53,8 @@
 .y4{bottom:20.437959px;}
 .y2{bottom:133.187462px;}
 .y1{bottom:147.109552px;}
-.y8{bottom:280.700127px;}
-.y7{bottom:365.318550px;}
+.y8{bottom:290.700127px;}
+.y7{bottom:395.318550px;}
 .y6{bottom:429.050919px;}
 .y5{bottom:473.274694px;}
 .y3{bottom:498.450554px;}
@@ -84,7 +103,7 @@
 .y2{bottom:177.583282pt;}
 .y1{bottom:196.146070pt;}
 .y8{bottom:374.266836pt;}
-.y7{bottom:487.091400pt;}
+.y7{bottom:470.091400pt;}
 .y6{bottom:572.067891pt;}
 .y5{bottom:631.032926pt;}
 .y3{bottom:664.600739pt;}
