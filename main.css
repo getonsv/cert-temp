@@ -15,12 +15,13 @@ html, body {
   position: relative;
   /* leave all child divs positioned absolutely relative to this */
 }
-
-
+.certificate-wrapper {
+  background: url('https://cdn.jsdelivr.net/gh/getonsv/cert-temp@refs/heads/main/bg1.png') no-repeat center/cover;
+}
 .ff0{font-family:sans-serif;visibility:hidden;}
-@font-face{font-family:ff1;src:url(f1.woff)format("woff");}.ff1{font-family:ff1;line-height:0.861816;font-style:normal;font-weight:normal;visibility:visible;}
-@font-face{font-family:ff2;src:url(f2.woff)format("woff");}.ff2{font-family:ff2;line-height:0.938965;font-style:normal;font-weight:normal;visibility:visible;}
-@font-face{font-family:ff3;src:url(f3.woff)format("woff");}.ff3{font-family:ff3;line-height:0.739746;font-style:normal;font-weight:normal;visibility:visible;}
+@font-face{font-family:ff1;src:url(https://cdn.jsdelivr.net/gh/getonsv/cert-temp@refs/heads/main/f1.woff)format("woff");}.ff1{font-family:ff1;line-height:0.861816;font-style:normal;font-weight:normal;visibility:visible;}
+@font-face{font-family:ff2;src:url(https://cdn.jsdelivr.net/gh/getonsv/cert-temp@refs/heads/main/f2.woff)format("woff");}.ff2{font-family:ff2;line-height:0.938965;font-style:normal;font-weight:normal;visibility:visible;}
+@font-face{font-family:ff3;src:url(https://cdn.jsdelivr.net/gh/getonsv/cert-temp@refs/heads/main/f3.woff)format("woff");}.ff3{font-family:ff3;line-height:0.739746;font-style:normal;font-weight:normal;visibility:visible;}
 .m0{transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-ms-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);-webkit-transform:matrix(0.250000,0.000000,0.000000,0.250000,0,0);}
 .v0{vertical-align:0.000000px;}
 .ls2{letter-spacing:-1.000000px;}
