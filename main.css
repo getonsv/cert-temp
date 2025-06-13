@@ -1,14 +1,13 @@
-
-    /* Wrapper to centre certificate on page */
+ /* Wrapper to centre certificate on page */
     .certificate {
       position: relative;
-      width: 842px;      /* same as .w0 */
-      height: 595.5px;   /* same as .h0 */
-      margin: 0 auto;    /* centre the whole certificate */
+      width: 842px;
+      height: 595.5px;
+      margin: 0 auto;
     }
 
-    /* Override absolute positions to centre each line */
-    .certificate span {
+    /* Centre each absolutely positioned element */
+    .certificate .t {
       position: absolute !important;
       left: 50% !important;
       transform: translateX(-50%) !important;
@@ -79,7 +78,3 @@
     .x7{left:350.714981px;}
     .x1{left:383.518929px;}
     .x5{left:407.669632px;}
-    @media print{
-      /* print-specific adjustments omitted for brevity */
-    }
-    
