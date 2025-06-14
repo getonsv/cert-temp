@@ -7,16 +7,12 @@ html, body {
   align-items: center;
   background: #fff; /* or keep your existing bg image */
 }
-
 .certificate-wrapper {
   /* use the exact width/height of your PDF canvas */
   width: 1123px;   /* e.g. PDF width in px */
   height: 794px;   /* e.g. PDF height in px */
   position: relative;
   /* leave all child divs positioned absolutely relative to this */
-}
-.certificate-wrapper {
-  background: url('https://cdn.jsdelivr.net/gh/getonsv/cert-temp@refs/heads/main/bg1.png') no-repeat center/cover;
 }
 .ff0{font-family:sans-serif;visibility:hidden;}
 @font-face{font-family:ff1;src:url(https://cdn.jsdelivr.net/gh/getonsv/cert-temp@refs/heads/main/f1.woff)format("woff");}.ff1{font-family:ff1;line-height:0.861816;font-style:normal;font-weight:normal;visibility:visible;}
